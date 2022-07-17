@@ -225,7 +225,7 @@ function woocommerce_cardnet_init()
                     'title' => __('AcquiringInstitutionCode', 'cardnet-woocommerce'),
                     'type' => 'text',
                     'default' => '0',
-                    'description' => __('Este código es asignado por EverTec ', 'cardnet-woocommerce'),
+                    'description' => __('Este código es asignado por CardNET ', 'cardnet-woocommerce'),
                     'desc_tip' => true,
                 ),
                 'MerchantType' => array(
@@ -246,7 +246,7 @@ function woocommerce_cardnet_init()
                     'title' => __('MerchantTerminal', 'cardnet-woocommerce'),
                     'type' => 'text',
                     'default' => '0',
-                    'description' => __('Valor asignado por EverTec, campo numérico. ', 'cardnet-woocommerce'),
+                    'description' => __('Valor asignado por CardNET, campo numérico. ', 'cardnet-woocommerce'),
                     'desc_tip' => true,
                 ), 
                 'MerchantName' => array(
